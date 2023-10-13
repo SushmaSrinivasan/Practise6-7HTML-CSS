@@ -6,23 +6,18 @@ img{
     height: auto;    
 }
 body{
-    border: 1px solid gray;
+    border: 10px solid gray;
     padding: 10px;
     background-position: center;
-    background-color: azure;
+    background-color: wheat;
     width: 500px;
     margin:auto;
 }
-h1,h3{
+h1,h3,p{
     text-align: center;
 }
-p{
-    text-align: center;
-}
-video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 10%;
-    left: 30%;
+footer{
+    max-height: 50px;
+    background-color: orange;
+    border : .5px solid black;
 }
